@@ -1,15 +1,22 @@
 PODS:
-  - SureUIKit (0.1.0)
+  - Masonry (1.1.0)
+  - SureUIKit (0.1.0):
+    - Masonry
 
 DEPENDENCIES:
   - SureUIKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
 
 EXTERNAL SOURCES:
   SureUIKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SureUIKit: 922ad8763bd06bd37739d1cc6369c0765d555173
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SureUIKit: 9c16f57bec93ae0217be90122e58ff56e54e66a5
 
 PODFILE CHECKSUM: ee9dffb0a13a8b790096398adcf8743165ac0ff1
 

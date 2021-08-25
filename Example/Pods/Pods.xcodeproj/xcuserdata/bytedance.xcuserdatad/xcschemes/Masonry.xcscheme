@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "643A973C93501AF7AE808AEFEE638E60"
-               BuildableName = "Pods-SureUIKit_Tests.framework"
-               BlueprintName = "Pods-SureUIKit_Tests"
+               BlueprintIdentifier = "55AF53E6C77A10ED4985E04D74A8878E"
+               BuildableName = "Masonry.framework"
+               BlueprintName = "Masonry"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
