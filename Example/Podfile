@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SureUIKit_Example' do
+  pod 'SureUIKit', :path => '../'
+
+  target 'SureUIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

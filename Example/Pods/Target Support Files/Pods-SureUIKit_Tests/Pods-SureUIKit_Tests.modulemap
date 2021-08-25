@@ -1,0 +1,6 @@
+framework module Pods_SureUIKit_Tests {
+  umbrella header "Pods-SureUIKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
