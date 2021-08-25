@@ -7,27 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		209F221B4E2055B507500BE48160143D /* SureUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0D90255FCC523312CAF59FF44E09C4 /* SureUIKit-dummy.m */; };
+		50E90234A10AB2A5E6135D452ADD04AF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 658FF0E53A35766EE681113D5531B3C2 /* ReplaceMe.m */; };
 		6573D1CFE119DDD98D1918E034752662 /* Pods-SureUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE7F08D93A3B29E9F28605D4FBE8B14C /* Pods-SureUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73058B0153BD4F236299D49A998063DF /* SureUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE66CB93F94AA87CCCC959A53571E6E /* SureUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		75FE9CCB570DDD1D8BBCDA00547393AD /* Pods-SureUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEE46346726F49D52A90C6A8E1C41FE /* Pods-SureUIKit_Tests-dummy.m */; };
 		7762F4554441F89EC348BDC495A44F94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		77ECD8172BB40E69CA1FD96A59EBD677 /* SureUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A339BB3CF7447620F8FB00DEC8D70B /* SureUIKit-dummy.m */; };
 		978D124034B6B3164FD4C2EC340AC5A6 /* Pods-SureUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CCD624224BC7A6D7337B20459C9EBB /* Pods-SureUIKit_Example-dummy.m */; };
-		B21444825E4110883310579CEF2AD05D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DDA18BB71A2E0B9B8699F639F76111 /* ReplaceMe.m */; };
+		B49626E48BD36A15786456244AF1BD97 /* SureUIKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A9B8AAF0E1A386A7AD318FA1251AACDA /* SureUIKit.bundle */; };
+		BBD29B578719387F48767C12D9DEFC75 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = D80345674E0A364B12F9354091FC6989 /* Father.m */; };
+		BD31A0CE598D79CC9E4D4E7E77AA83FD /* SureUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 362D2498006ADD1840D01B182510FFF3 /* SureUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDF330AF415C28F82EDDB11246652513 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4936FB7508C841D3466502C61D2ED4BC /* test.jpg */; };
 		C5D68A06D6145BCEE88D53FC94DFBA2A /* Pods-SureUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16B7F770B502A38C86ABAD99AF464A97 /* Pods-SureUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB625B76CEE050FBC732A74437DD00ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D732DC5C6E0FF015C140292A58463140 /* Father.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3F1379B6DDFD834311C31470BE344A /* Father.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E01A3B27C18A4C5DA2F04E9D110AB1BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F335FD8136B4811EB8F20DD0444F612A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0EBAF8A76B3EB0CFE5C090AC83ED1424 /* PBXContainerItemProxy */ = {
+		0583EAB76A664F2126CC081B2FAC1004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88019CDA2486CD10DAB17442402F9141;
+			remoteInfo = "SureUIKit-SureUIKit";
+		};
+		2E1C2A29CAEE0B9A58E4CA3112F21854 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 05C5FCE31BEF7A4C913E61ACCD83C801;
 			remoteInfo = "Pods-SureUIKit_Example";
 		};
-		C19B824F914221066678E58EC1B03F60 /* PBXContainerItemProxy */ = {
+		6E2A1269F86F1756A1010ABD908FDAF2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -39,35 +50,40 @@
 /* Begin PBXFileReference section */
 		08B7FD0FE7EE1EE44F01E71594FEBE2C /* Pods-SureUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SureUIKit_Example-Info.plist"; sourceTree = "<group>"; };
 		0FEB07217CA2BB9C7D89732A280C00D6 /* Pods-SureUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SureUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		15624F493F0DD10ADEE051E5CC2D6D68 /* SureUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SureUIKit.xcconfig; sourceTree = "<group>"; };
 		16B7F770B502A38C86ABAD99AF464A97 /* Pods-SureUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SureUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		2104E31D8A846788436746F2414455A8 /* SureUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SureUIKit-prefix.pch"; sourceTree = "<group>"; };
 		2C449EA279C30BDA340A4D3755224F42 /* Pods-SureUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SureUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2FE66CB93F94AA87CCCC959A53571E6E /* SureUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SureUIKit-umbrella.h"; sourceTree = "<group>"; };
+		362D2498006ADD1840D01B182510FFF3 /* SureUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SureUIKit-umbrella.h"; sourceTree = "<group>"; };
+		3C52B25CA15841D1325BF956B7003156 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4936FB7508C841D3466502C61D2ED4BC /* test.jpg */ = {isa = PBXFileReference; includeInIndex = 1; name = test.jpg; path = SureUIKit/Assets/test.jpg; sourceTree = "<group>"; };
 		494BBD92EC766222B5F70C4128684677 /* Pods-SureUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SureUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4AA861936E1E74655B5EBCB827356320 /* Pods-SureUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SureUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5125B76963DBC136E7BDCA5F7EE1DB38 /* Pods-SureUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SureUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		63222CD9211B5B1A2B5431BDEA688B82 /* SureUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SureUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63222CD9211B5B1A2B5431BDEA688B82 /* SureUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SureUIKit.framework; path = SureUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		658FF0E53A35766EE681113D5531B3C2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SureUIKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		78121E4FB988353EA3146C7C317F7702 /* SureUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SureUIKit-Info.plist"; sourceTree = "<group>"; };
+		7550D22CA03AD4A44F72EEC6E845C939 /* SureUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SureUIKit-Info.plist"; sourceTree = "<group>"; };
 		7B345C87C09B76537DD86A9668D87F8C /* Pods-SureUIKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SureUIKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		84CCD624224BC7A6D7337B20459C9EBB /* Pods-SureUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SureUIKit_Example-dummy.m"; sourceTree = "<group>"; };
-		84DDA18BB71A2E0B9B8699F639F76111 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SureUIKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		86CC58D6CC03C70DFF7CB20162C6367D /* SureUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SureUIKit-prefix.pch"; sourceTree = "<group>"; };
 		945064214DB4CBCBC3D496E9FCCAB4CF /* Pods-SureUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SureUIKit_Tests.modulemap"; sourceTree = "<group>"; };
 		9A1437D3E4C816745965B425E735A76E /* Pods-SureUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SureUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A224F9E291DE5F398E6C74811E557F56 /* SureUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SureUIKit.modulemap; sourceTree = "<group>"; };
-		A671E04ED122B8A1F571480BF9838C7B /* Pods_SureUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SureUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA0D90255FCC523312CAF59FF44E09C4 /* SureUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SureUIKit-dummy.m"; sourceTree = "<group>"; };
-		B044D2F3A067472995CE6A84163F391A /* SureUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SureUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		BCA755C903F918DE474F8DD1144E4C74 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F57332109A794DDD2EF40D64FAD5876 /* SureUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SureUIKit.xcconfig; sourceTree = "<group>"; };
+		A671E04ED122B8A1F571480BF9838C7B /* Pods_SureUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SureUIKit_Tests.framework; path = "Pods-SureUIKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B8AAF0E1A386A7AD318FA1251AACDA /* SureUIKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SureUIKit.bundle; path = "SureUIKit-SureUIKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65C37FFC383D8E11EA498EE0FE284B9 /* SureUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SureUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6A339BB3CF7447620F8FB00DEC8D70B /* SureUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SureUIKit-dummy.m"; sourceTree = "<group>"; };
 		BEEE46346726F49D52A90C6A8E1C41FE /* Pods-SureUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SureUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		C58AB9C3A9EF7209145E1B014F1D4364 /* Pods-SureUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SureUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C5EF16A333A98352F68011269BE4542E /* Pods-SureUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SureUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C9BF83C0472CAA6F1D0A3B31593852DD /* Pods-SureUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SureUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CC983AF49E3A0FB0F7B644F122C9037A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D80345674E0A364B12F9354091FC6989 /* Father.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Father.m; path = SureUIKit/Classes/Father.m; sourceTree = "<group>"; };
+		D8FE38EDFF8E1F32D79DE98A89C5C098 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E0A92A54B85B2FED8AACFE4EDE8250E1 /* SureUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SureUIKit.modulemap; sourceTree = "<group>"; };
+		EA3F1379B6DDFD834311C31470BE344A /* Father.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Father.h; path = SureUIKit/Classes/Father.h; sourceTree = "<group>"; };
 		EBB43E63AD891A0DA42C2ABACE1484D0 /* Pods-SureUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SureUIKit_Example.modulemap"; sourceTree = "<group>"; };
-		FC77C5EC4D92D7237077493304C82C84 /* Pods_SureUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SureUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCEEA14F96BDCFD3C924EF41D2E9F0B /* ResourceBundle-SureUIKit-SureUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SureUIKit-SureUIKit-Info.plist"; sourceTree = "<group>"; };
+		FC77C5EC4D92D7237077493304C82C84 /* Pods_SureUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SureUIKit_Example.framework; path = "Pods-SureUIKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE7F08D93A3B29E9F28605D4FBE8B14C /* Pods-SureUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SureUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,11 +96,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15BE0FEA1B7D67F4B9952BAB42A9041D /* Frameworks */ = {
+		B280E6CF6BE1DBACD10F71E7B61989D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB625B76CEE050FBC732A74437DD00ED /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +108,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F335FD8136B4811EB8F20DD0444F612A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9A816324A81287D437BE732E3A831F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E01A3B27C18A4C5DA2F04E9D110AB1BA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,41 +139,6 @@
 			path = "Target Support Files/Pods-SureUIKit_Example";
 			sourceTree = "<group>";
 		};
-		2BFB80D13CC58007FACFF52FF50FCBC8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A224F9E291DE5F398E6C74811E557F56 /* SureUIKit.modulemap */,
-				15624F493F0DD10ADEE051E5CC2D6D68 /* SureUIKit.xcconfig */,
-				AA0D90255FCC523312CAF59FF44E09C4 /* SureUIKit-dummy.m */,
-				78121E4FB988353EA3146C7C317F7702 /* SureUIKit-Info.plist */,
-				86CC58D6CC03C70DFF7CB20162C6367D /* SureUIKit-prefix.pch */,
-				2FE66CB93F94AA87CCCC959A53571E6E /* SureUIKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SureUIKit";
-			sourceTree = "<group>";
-		};
-		30D5984594271F569D1A29DDAA6DEFF5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FC77C5EC4D92D7237077493304C82C84 /* Pods_SureUIKit_Example.framework */,
-				A671E04ED122B8A1F571480BF9838C7B /* Pods_SureUIKit_Tests.framework */,
-				63222CD9211B5B1A2B5431BDEA688B82 /* SureUIKit.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		324432AC0D69A8106E9FF4B414212815 /* SureUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				84DDA18BB71A2E0B9B8699F639F76111 /* ReplaceMe.m */,
-				857643B8C064BE3D06804D21661EAC8F /* Pod */,
-				2BFB80D13CC58007FACFF52FF50FCBC8 /* Support Files */,
-			);
-			name = SureUIKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		4989D37DCFB34062BF6B08C2800403B0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,12 +156,35 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		857643B8C064BE3D06804D21661EAC8F /* Pod */ = {
+		5C5BA26052578476D326BCE14159727A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BCA755C903F918DE474F8DD1144E4C74 /* LICENSE */,
-				CC983AF49E3A0FB0F7B644F122C9037A /* README.md */,
-				B044D2F3A067472995CE6A84163F391A /* SureUIKit.podspec */,
+				4936FB7508C841D3466502C61D2ED4BC /* test.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B2F0194E75F74B28C6C868F54339B48A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFCEEA14F96BDCFD3C924EF41D2E9F0B /* ResourceBundle-SureUIKit-SureUIKit-Info.plist */,
+				E0A92A54B85B2FED8AACFE4EDE8250E1 /* SureUIKit.modulemap */,
+				9F57332109A794DDD2EF40D64FAD5876 /* SureUIKit.xcconfig */,
+				B6A339BB3CF7447620F8FB00DEC8D70B /* SureUIKit-dummy.m */,
+				7550D22CA03AD4A44F72EEC6E845C939 /* SureUIKit-Info.plist */,
+				2104E31D8A846788436746F2414455A8 /* SureUIKit-prefix.pch */,
+				362D2498006ADD1840D01B182510FFF3 /* SureUIKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SureUIKit";
+			sourceTree = "<group>";
+		};
+		BEEFED2B13DC3F169CFBF89C27103DFB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3C52B25CA15841D1325BF956B7003156 /* LICENSE */,
+				D8FE38EDFF8E1F32D79DE98A89C5C098 /* README.md */,
+				B65C37FFC383D8E11EA498EE0FE284B9 /* SureUIKit.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -182,19 +193,11 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				CF71C26FCD627869176786C202E84978 /* Development Pods */,
+				D30F74B9EDBA16BE70CC8F9B63843630 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				30D5984594271F569D1A29DDAA6DEFF5 /* Products */,
+				FAC765EB078B3BA9EBABD235627D9E34 /* Products */,
 				4989D37DCFB34062BF6B08C2800403B0 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CF71C26FCD627869176786C202E84978 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				324432AC0D69A8106E9FF4B414212815 /* SureUIKit */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -203,6 +206,14 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D30F74B9EDBA16BE70CC8F9B63843630 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F86E74C8FAC26354E5832CD1E90229EB /* SureUIKit */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		DAB6C1D0E76C0759DAFB5CF0639ED816 /* Pods-SureUIKit_Tests */ = {
@@ -221,6 +232,31 @@
 			path = "Target Support Files/Pods-SureUIKit_Tests";
 			sourceTree = "<group>";
 		};
+		F86E74C8FAC26354E5832CD1E90229EB /* SureUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				EA3F1379B6DDFD834311C31470BE344A /* Father.h */,
+				D80345674E0A364B12F9354091FC6989 /* Father.m */,
+				658FF0E53A35766EE681113D5531B3C2 /* ReplaceMe.m */,
+				BEEFED2B13DC3F169CFBF89C27103DFB /* Pod */,
+				5C5BA26052578476D326BCE14159727A /* Resources */,
+				B2F0194E75F74B28C6C868F54339B48A /* Support Files */,
+			);
+			name = SureUIKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FAC765EB078B3BA9EBABD235627D9E34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC77C5EC4D92D7237077493304C82C84 /* Pods_SureUIKit_Example.framework */,
+				A671E04ED122B8A1F571480BF9838C7B /* Pods_SureUIKit_Tests.framework */,
+				A9B8AAF0E1A386A7AD318FA1251AACDA /* SureUIKit.bundle */,
+				63222CD9211B5B1A2B5431BDEA688B82 /* SureUIKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -232,19 +268,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3A8273A68AE98851061E8B1E9457928E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D732DC5C6E0FF015C140292A58463140 /* Father.h in Headers */,
+				BD31A0CE598D79CC9E4D4E7E77AA83FD /* SureUIKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		40A072959432DA1AB52FF52520D72692 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6573D1CFE119DDD98D1918E034752662 /* Pods-SureUIKit_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		536D8D6B4FB4E84CF4E1B5939C6832D3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				73058B0153BD4F236299D49A998063DF /* SureUIKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +300,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				314CCD8FBC7AE48728C4AD8327D72F63 /* PBXTargetDependency */,
+				3C46BF815D4B2F4EC3F7F2E9CCCF7026 /* PBXTargetDependency */,
 			);
 			name = "Pods-SureUIKit_Example";
 			productName = "Pods-SureUIKit_Example";
@@ -282,25 +319,43 @@
 			buildRules = (
 			);
 			dependencies = (
-				D96649388B9ECCF72C3D270328C3ECEB /* PBXTargetDependency */,
+				BFE9C2606DEB972966829C7D544808B4 /* PBXTargetDependency */,
 			);
 			name = "Pods-SureUIKit_Tests";
 			productName = "Pods-SureUIKit_Tests";
 			productReference = A671E04ED122B8A1F571480BF9838C7B /* Pods_SureUIKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F5AA9A79CD25D2164A6D8793E3BB479B /* SureUIKit */ = {
+		88019CDA2486CD10DAB17442402F9141 /* SureUIKit-SureUIKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA58212F042C1140B18F96F60FAA0A28 /* Build configuration list for PBXNativeTarget "SureUIKit" */;
+			buildConfigurationList = 1F05323415D8077D5FBEDD1BE8CB3FAF /* Build configuration list for PBXNativeTarget "SureUIKit-SureUIKit" */;
 			buildPhases = (
-				536D8D6B4FB4E84CF4E1B5939C6832D3 /* Headers */,
-				12D7A8B7C52AEEF1BDD07A847E8B9D67 /* Sources */,
-				15BE0FEA1B7D67F4B9952BAB42A9041D /* Frameworks */,
-				5C6475DF4715FD4EB19E467E67634D2E /* Resources */,
+				0DBA791F23F76816C4E13F9A53273FDF /* Sources */,
+				B280E6CF6BE1DBACD10F71E7B61989D5 /* Frameworks */,
+				EFC086083DC991091A06F24F3F17AB1B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = "SureUIKit-SureUIKit";
+			productName = "SureUIKit-SureUIKit";
+			productReference = A9B8AAF0E1A386A7AD318FA1251AACDA /* SureUIKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F5AA9A79CD25D2164A6D8793E3BB479B /* SureUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F0531CFC79DFB17C970279664EA2E8 /* Build configuration list for PBXNativeTarget "SureUIKit" */;
+			buildPhases = (
+				3A8273A68AE98851061E8B1E9457928E /* Headers */,
+				287DCDBADA0DDAEEB6C3D1DD48668F6F /* Sources */,
+				E9A816324A81287D437BE732E3A831F1 /* Frameworks */,
+				C88198A665E277F42A7434181C431E86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3868DBB9A5AC27686341E1569C2EE74 /* PBXTargetDependency */,
 			);
 			name = SureUIKit;
 			productName = SureUIKit;
@@ -325,25 +380,19 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 30D5984594271F569D1A29DDAA6DEFF5 /* Products */;
+			productRefGroup = FAC765EB078B3BA9EBABD235627D9E34 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				05C5FCE31BEF7A4C913E61ACCD83C801 /* Pods-SureUIKit_Example */,
 				643A973C93501AF7AE808AEFEE638E60 /* Pods-SureUIKit_Tests */,
 				F5AA9A79CD25D2164A6D8793E3BB479B /* SureUIKit */,
+				88019CDA2486CD10DAB17442402F9141 /* SureUIKit-SureUIKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5C6475DF4715FD4EB19E467E67634D2E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7B123083BE31147E2B840F9E7864780C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -358,15 +407,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C88198A665E277F42A7434181C431E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49626E48BD36A15786456244AF1BD97 /* SureUIKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC086083DC991091A06F24F3F17AB1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF330AF415C28F82EDDB11246652513 /* test.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		12D7A8B7C52AEEF1BDD07A847E8B9D67 /* Sources */ = {
+		0DBA791F23F76816C4E13F9A53273FDF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B21444825E4110883310579CEF2AD05D /* ReplaceMe.m in Sources */,
-				209F221B4E2055B507500BE48160143D /* SureUIKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287DCDBADA0DDAEEB6C3D1DD48668F6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD29B578719387F48767C12D9DEFC75 /* Father.m in Sources */,
+				50E90234A10AB2A5E6135D452ADD04AF /* ReplaceMe.m in Sources */,
+				77ECD8172BB40E69CA1FD96A59EBD677 /* SureUIKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,17 +462,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		314CCD8FBC7AE48728C4AD8327D72F63 /* PBXTargetDependency */ = {
+		3C46BF815D4B2F4EC3F7F2E9CCCF7026 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SureUIKit;
 			target = F5AA9A79CD25D2164A6D8793E3BB479B /* SureUIKit */;
-			targetProxy = C19B824F914221066678E58EC1B03F60 /* PBXContainerItemProxy */;
+			targetProxy = 6E2A1269F86F1756A1010ABD908FDAF2 /* PBXContainerItemProxy */;
 		};
-		D96649388B9ECCF72C3D270328C3ECEB /* PBXTargetDependency */ = {
+		A3868DBB9A5AC27686341E1569C2EE74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SureUIKit-SureUIKit";
+			target = 88019CDA2486CD10DAB17442402F9141 /* SureUIKit-SureUIKit */;
+			targetProxy = 0583EAB76A664F2126CC081B2FAC1004 /* PBXContainerItemProxy */;
+		};
+		BFE9C2606DEB972966829C7D544808B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SureUIKit_Example";
 			target = 05C5FCE31BEF7A4C913E61ACCD83C801 /* Pods-SureUIKit_Example */;
-			targetProxy = 0EBAF8A76B3EB0CFE5C090AC83ED1424 /* PBXContainerItemProxy */;
+			targetProxy = 2E1C2A29CAEE0B9A58E4CA3112F21854 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -436,6 +515,82 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		1059B413350121448EB4D44A46386953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F57332109A794DDD2EF40D64FAD5876 /* SureUIKit.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SureUIKit";
+				INFOPLIST_FILE = "Target Support Files/SureUIKit/ResourceBundle-SureUIKit-SureUIKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = SureUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4A37AB8A294026617B593E89FA8551C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F57332109A794DDD2EF40D64FAD5876 /* SureUIKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SureUIKit/SureUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SureUIKit/SureUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SureUIKit/SureUIKit.modulemap";
+				PRODUCT_MODULE_NAME = SureUIKit;
+				PRODUCT_NAME = SureUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53E09E5640B0ABEC7EEA9582E4BC5EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F57332109A794DDD2EF40D64FAD5876 /* SureUIKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SureUIKit/SureUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SureUIKit/SureUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SureUIKit/SureUIKit.modulemap";
+				PRODUCT_MODULE_NAME = SureUIKit;
+				PRODUCT_NAME = SureUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		749E55263563FAD2536BDEDF12A07E80 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -555,11 +710,27 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		CE68E8BC65EE04B8FE1A4D1EE4717D0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F57332109A794DDD2EF40D64FAD5876 /* SureUIKit.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SureUIKit";
+				INFOPLIST_FILE = "Target Support Files/SureUIKit/ResourceBundle-SureUIKit-SureUIKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = SureUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		CE7890B62028616D4D320DCB5F5932C9 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -659,70 +830,18 @@
 			};
 			name = Debug;
 		};
-		F1CAB9A700328F0A6EC5311E867BB102 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15624F493F0DD10ADEE051E5CC2D6D68 /* SureUIKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SureUIKit/SureUIKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SureUIKit/SureUIKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SureUIKit/SureUIKit.modulemap";
-				PRODUCT_MODULE_NAME = SureUIKit;
-				PRODUCT_NAME = SureUIKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FCF6EA9E9E1B41C38A2BDFC0FE40E8DD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15624F493F0DD10ADEE051E5CC2D6D68 /* SureUIKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SureUIKit/SureUIKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SureUIKit/SureUIKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SureUIKit/SureUIKit.modulemap";
-				PRODUCT_MODULE_NAME = SureUIKit;
-				PRODUCT_NAME = SureUIKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1F05323415D8077D5FBEDD1BE8CB3FAF /* Build configuration list for PBXNativeTarget "SureUIKit-SureUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE68E8BC65EE04B8FE1A4D1EE4717D0F /* Debug */,
+				1059B413350121448EB4D44A46386953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		27E19B1CEBA79056A3A8DF5D59EC679F /* Build configuration list for PBXNativeTarget "Pods-SureUIKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -741,11 +860,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA58212F042C1140B18F96F60FAA0A28 /* Build configuration list for PBXNativeTarget "SureUIKit" */ = {
+		66F0531CFC79DFB17C970279664EA2E8 /* Build configuration list for PBXNativeTarget "SureUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1CAB9A700328F0A6EC5311E867BB102 /* Debug */,
-				FCF6EA9E9E1B41C38A2BDFC0FE40E8DD /* Release */,
+				53E09E5640B0ABEC7EEA9582E4BC5EB4 /* Debug */,
+				4A37AB8A294026617B593E89FA8551C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

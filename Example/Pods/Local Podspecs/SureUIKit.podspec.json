@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of SureUIKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/liushuo/SureUIKit",
+  "homepage": "https://github.com/LSure/SureUIKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "liushuo": "liushuo.sure@bytedance.com"
   },
   "source": {
-    "git": "https://github.com/liushuo/SureUIKit.git",
+    "git": "https://github.com/LSure/SureUIKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "SureUIKit/Classes/**/*"
+  "source_files": "SureUIKit/Classes/**/*",
+  "resource_bundles": {
+    "SureUIKit": [
+      "SureUIKit/Assets/*"
+    ]
+  }
 }

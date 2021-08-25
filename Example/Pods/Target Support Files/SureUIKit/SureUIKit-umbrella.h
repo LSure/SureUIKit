@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Father.h"
 
 FOUNDATION_EXPORT double SureUIKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char SureUIKitVersionString[];

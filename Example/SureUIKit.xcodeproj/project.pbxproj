@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		43A712A46543FB9DED503760 /* Pods-SureUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SureUIKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-SureUIKit_Example/Pods-SureUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4A7BD2CBC2085B57AA9758C3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4A7BD2CBC2085B57AA9758C3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5D7524AFF1E796D305CD3AD3 /* Pods_SureUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SureUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* SureUIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SureUIKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,8 +63,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EBB16B5CE33690C1BB867D7 /* Pods-SureUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SureUIKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SureUIKit_Tests/Pods-SureUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AF2AA3B22DC77E4863942F14 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		EC33F2239AAA454F7A9D3CAC /* SureUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SureUIKit.podspec; path = ../SureUIKit.podspec; sourceTree = "<group>"; };
+		AF2AA3B22DC77E4863942F14 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EC33F2239AAA454F7A9D3CAC /* SureUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SureUIKit.podspec; path = ../SureUIKit.podspec; sourceTree = "<group>"; };
 		F586466DAB69465644B412E1 /* Pods_SureUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SureUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF21EB87590B1D74F08DD12 /* Pods-SureUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SureUIKit_Example.release.xcconfig"; path = "Target Support Files/Pods-SureUIKit_Example/Pods-SureUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				7EBB16B5CE33690C1BB867D7 /* Pods-SureUIKit_Tests.debug.xcconfig */,
 				643FA5C9398113B4D86537B6 /* Pods-SureUIKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

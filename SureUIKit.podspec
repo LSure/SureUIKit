@@ -21,20 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/liushuo/SureUIKit'
+  s.homepage         = 'https://github.com/LSure/SureUIKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liushuo' => 'liushuo.sure@bytedance.com' }
-  s.source           = { :git => 'https://github.com/liushuo/SureUIKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/LSure/SureUIKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'SureUIKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SureUIKit' => ['SureUIKit/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'SureUIKit' => ['SureUIKit/Assets/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
